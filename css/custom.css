@@ -12,7 +12,9 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: .2rem;
-  font-weight: 600; }
+  font-weight: 600; 
+    color: #0d86ad;
+}
 .docs-section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
@@ -41,9 +43,12 @@
 .docs-example h2,
 .docs-example h3,
 .docs-example h4,
-.docs-example h5,
+.docs-example h5{
+    color: #0FA0CE;
+  },
 .docs-example h6 {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+  }
 .heading-font-size {
   font-size: 1.2rem;
   color: #999;
@@ -83,6 +88,18 @@
   left: 5px; }
 .navbar {
   display: none; }
+.step{
+}
+.step::first-letter {
+      initial-letter: 2;
+  color: darkgrey;
+  float: left;
+  font-size: 2em;
+  margin: 0 .2em 0em .1em;
+  font-weight: bolder;
+} 
+}
+
 
 /* Larger than phone */
 @media (min-width: 550px) {
